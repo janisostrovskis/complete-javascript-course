@@ -1,0 +1,65 @@
+console.log(40 + 8 + 23 - 10);				will display in inspector console the result of 61
+let firstName = "Jonas";				will create variable called "firstName" with value of "Jonas"
+firstName = "Janis"					will change value variable called "firstName" from "Jonas" to "Janis". Note let is not used to change value!!!
+
+OBJECT
+let me = {
+	name: 'Jonas'
+};
+
+PRIMITIVE
+let firstName = 'Jonas;
+let age = 30;
+
+DATA TYPES
+1. Number: Floating point numbers --> Used for decimals and integers	example: let age = 23;
+2. String: Sequence of charecters --> Used for text exampe let firstName = 'Jonas';
+3. Boolean: Logical type that can only be true or false --> Used for taking decisions example: let fullAge = true;
+4. Undefined: Value taken by a variablle that is not yet defined ('empty valur') example: let children;
+5. Null: Also means 'empty value'
+6. Symbol (ES2015): Value that is unique and cannot be changed
+7. BigInt (ES2020): Larger integers that the Number type can hold
+
+Java Script has dynamic typing: We dont have to manually define the data type, it happens automatically
+Value has type, NOT variable!
+
+typeof							operator which shows the data type of value
+
+
+let const var 						they all are used to assign value to variable
+const --> not supposed to change in future, cant be reasigned different value, and cant assign empty value
+var --> should be avoided, legacy code from previous versions
+
+
+OPERATORS
+Mathematical: + - / * or **(kāpināšana) example --> 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
+
+Assignment:  
+'=' 
+'+='--> example: x += 10; // x = x + 10 = 25
+'*='--> example: x *= 4; // x = x * 4 = 100
+'/='--> example: x /= 5; // x = x / 5 = 50'
+'++'--> example: x++; // x = x + 1 (Counter function for adding)
+'--'--> example: x--; // x = x - 1 (Counter function for deducting
+
+Comparison:
+'>', '<', '>=', '<='
+
+Operator Precedence ---> Secība kā izpildīsies operātori
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+
+const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+BOTH ARE THE SAME, JUST DIFFERENT WAY HOW TO CONSTRUCT TEMPLATE STRING
+
+
+   ` ---> Use this for strings, then no worries about new lines...
+
+
+Taking Decisions: if / else Statements
+
+
+if (true or false condition) {resulting value or statement if true;} else {resulting value or statement if false;} 
+
+
+
